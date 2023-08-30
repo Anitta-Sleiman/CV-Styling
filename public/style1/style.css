@@ -254,4 +254,18 @@ h3::before {
     }
     */
 
+/* media query */
 
+@media only screen and (max-width: 650px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
+    #contact {
+        position: relative;
+        background: white;
+    }
+}
