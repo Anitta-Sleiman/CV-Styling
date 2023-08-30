@@ -271,3 +271,18 @@ h3 {
 .contact-facebook {
     background-image: url("../images/facebook.png");
 }
+ /* media query */
+@media only screen and (max-width: 500px) {
+    header figure {
+        display: none;
+    }
+
+    section {
+        padding-left: 0;
+    }
+
+    h3 {
+        position: relative;
+        border-right: none;
+    }
+}
