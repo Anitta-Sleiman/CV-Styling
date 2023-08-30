@@ -1,0 +1,273 @@
+body {
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header div {
+    width: 1100px;
+    margin-left: 15%;
+    position: relative;
+    /* background-color: blue; */
+    padding-top: 23px;
+}
+
+/*
+header {
+ background-color: red; 
+    padding: 60px; 
+    height: 10%;
+    border-bottom: 1px solid gray;
+    line-height: 2px;
+}
+*/
+hgroup {
+    float: right;
+    margin-left: 15%;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+/*
+
+header h1 {
+    color: black;
+    position: absolute;
+    width: 800px;
+    left: 200px;
+    padding-bottom: -10px;
+}
+
+figure img {
+    background-color: hotpink;
+    position: absolute;
+    left: 70%;
+    transform: rotate(-15deg);
+    height: 180px;
+    width: 180px;
+    top: 7%;
+    z-index: 1;
+}
+*/
+
+header figure {
+    position: absolute;
+    right: 10px;
+}
+
+figure img {
+    position: relative;
+    left: 5%;
+    transform: rotate(-15deg);
+    height: 180px;
+    width: 180px;
+    top: 7%;
+    z-index: 1;
+}
+
+header h2 {
+    display: none;
+}
+
+/*
+img {
+   transform: rotate(-15deg);
+   height: 110px;
+   width: 110px;
+}
+
+.content {
+    position: absolute;
+    padding: 20px;
+    margin: 0 auto;
+    float: left;
+}
+#about h3 {
+    display: none;
+}
+
+#about p {
+    position: absolute;
+    color: gray;
+   /* background-color: aquamarine;
+    width: 700px;
+    left: 1%;
+    text-align: justify;
+    font-style: italic;
+    margin-bottom: 200px;
+    float: left;
+    
+}
+
+.skills .skill {
+    float: right;
+    left: 10px;
+}
+
+.content p{
+    padding:10px;
+    margin:10px;
+  }
+*/
+
+.content {
+    padding: 15px;
+    margin-left: 15%;
+    width: 1100px;
+}
+
+/* 
+#competencies,
+#experiences,
+#education,
+#hobbies {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white; 
+    position: relative;
+}
+/*
+section h3 {
+    border-right: 1px solid red;
+}
+*/
+
+section {
+    position: relative;
+    float: left;
+    padding-left: 175px;
+    margin-bottom: 60px;
+}
+
+h3 {
+    position: absolute;
+    top: 0;
+    width: 160px;
+    margin-right: 10px;
+    height: 100%;
+    left: 0;
+    border-right: 1px solid black;
+    font-style: italic;
+}
+
+#about h3 {
+    display: none;
+}
+
+#about p {
+    position: relative;
+    right: 25%;
+    text-align: justify;
+    width: 700px;
+
+}
+
+.skills {
+    padding-top: 30px;
+}
+
+.skill {
+    width: 140px;
+    padding: 15px;
+    background: teal;
+    color: white;
+    float: left;
+    margin: 5px;
+}
+
+.skill span {
+    width: 140px;
+    display: inline-block;
+}
+
+.skill span::after {
+    content: "";
+    color: white;
+    float: right;
+}
+
+.skill[data-skill="5"] span::after {
+    content: "★★★";
+}
+
+.skill[data-skill="3"] span::after {
+    content: "★★";
+}
+
+.skill[data-skill="1"] span::after {
+    content: "★";
+}
+
+.skill[data-skill="7"] span::after {
+    content: "★★★★";
+}
+
+.skill[data-skill="9"] span::after {
+    content: "★★★★★";
+}
+
+
+
+
+.experience h4 {
+    color: teal;
+    margin-bottom: 1px;
+    float: left;
+}
+
+.experience p {
+    margin-top: 20px;
+    float: left;
+}
+
+.experience-details {
+    color: gray;
+    margin-top: 18px;
+    float: right;
+}
+
+.experience-institution {
+    display: none;
+}
+
+.experience-date-separator {
+    color: teal;
+}
+
+
+#contact h3,
+.contact-skype,
+.contact-type,
+.contact-value a {
+    display: none;
+}
+
+.contact {
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 10px;
+}
+
+.contact-phone {
+    background-image: url("../images/phone.png");
+}
+
+.contact-email {
+    background-image: url("../images/email.png");
+}
+
+.contact-github {
+    background-image: url("../images/github.png");
+}
+
+.contact-facebook {
+    background-image: url("../images/facebook.png");
+}
